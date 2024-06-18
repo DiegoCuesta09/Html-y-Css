@@ -1,0 +1,62 @@
+		*{
+		box-sizing: border-box;
+		}
+		body{
+		font-family: raleway, sans-serif;
+		background-image: url(imagenes/mancha-pintura-azul-claro2.jpg);
+		}
+		header{
+			text-align: center;
+			font-family: copyduck;
+		}
+		nav ul{
+			list-style-type: none;
+			margin: auto;
+			padding: 10px;
+			background-color: #6BB2BC;
+			display: flex;	
+			justify-content: center;
+			margin: 2% 10% 2% 10%;
+			border-radius: 2em;
+
+		}
+		nav ul li{
+			padding: 20px;
+
+		}
+		nav ul a:link, nav ul a:visited{
+			color: black;
+			text-decoration: none;
+			padding: 2px;
+			display: inline-block;
+			letter-spacing: 0.2em;
+		}
+		nav ul a:hover, nav ul a:active{
+			background-color: #557881;
+			color: #fff;
+		}
+		nav ul a.active{
+			background-color: #557881;
+			color: #fff;
+		}
+		section{
+			width: 80%;
+			box-sizing: border-box;
+			background-color: #DFFBFF;
+			list-style-type: none;
+			padding: 20px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+			margin-bottom: 20px;
+			margin: 2% 10% 2% 10%;
+			border-radius: 2em;
+		}
+		.centrar{
+			text-align: center;
+		}
+		footer{
+			background-color:#6BB2BC;
+			text-align: center;
+			padding: 10px;
+			clear: both;
+		}
+		
